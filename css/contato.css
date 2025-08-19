@@ -1,0 +1,93 @@
+.hero-contato {
+  background-color: var(--primary-color-3);
+  width: 100%;
+  height: 328px;
+}
+
+.hero-contato-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.hero-contato-1 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: bold;
+  color: var(--primary-color-2);
+}
+
+.hero-contato-1 p {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: regular;
+  color: var(--primary-color-2);
+  margin-top: 25px;
+}
+
+.hero-contato-1-btn a {
+  text-decoration: none;
+}
+
+.hero-contato-1-btn ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.hero-contato-1-btn ul {
+  padding: 5px 0;
+  margin-top: 30px;
+  list-style: none;
+}
+
+#btn-ligar {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: medium;
+  background-color: var(--primary-color-2);
+  color: var(--primary-color-3);
+  border: 2px solid var(--primary-color-2);
+  border-radius: 9999px;
+  padding: 15px 35px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  transition: all 0.6s ease-in-out;
+
+}
+
+#btn-whatsapp {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: medium;
+  color: var(--primary-color-2);
+  border: 2px solid var(--primary-color-2);
+  border-radius: 9999px;
+  padding: 15px 35px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  transition: all 0.6s ease-in-out;
+
+}
+
+#btn-ligar:hover {
+  background-color: var(--neutro-color);
+  color: var(--primary-color-2);
+  transform: translateY(-2px);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 25px 35px -5px,
+              rgba(0, 0, 0, 0.08) 0px 15px 15px -5px;
+}
+
+#btn-whatsapp:hover {
+  background-color: var(--primary-color-2);
+  color: var(--primary-color-4);
+  transform: translateY(-2px);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 25px 35px -5px,
+              rgba(0, 0, 0, 0.08) 0px 15px 15px -5px;
+}
